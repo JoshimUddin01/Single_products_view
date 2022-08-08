@@ -307,6 +307,7 @@ ul{
     background: #d8d8d8;
     padding: 5px;
     border-radius: 10px;
+    width: fit-content;
 }
 .product_category{
     font-size: 12px;
@@ -525,7 +526,9 @@ ul{
 
 @media screen and (max-width: 320px) {
 .pull-right {
-    margin-left: -10px!important;
+    position: relative;
+    left: 15px;
+    margin-top: -21px;
 }
 .product_auther_profile_follow_btn {
     margin-left: 50px;
